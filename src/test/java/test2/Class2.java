@@ -4,14 +4,11 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 public class Class2 {
 	public static WebDriver driver;
-
+public static void main (String[] args) {
 	
-	@Test
-	public void Alert() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://rediff.com");
